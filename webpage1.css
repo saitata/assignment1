@@ -1,10 +1,12 @@
   *{
     margin:0;
     padding:0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Arial;
 	box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-style:normal;
+    font-size:15px;
 }
 
 body{
@@ -21,7 +23,7 @@ body{
 }
 .nav-bar .side{
     position:fixed;
-    width:150px;
+    width:190px;
     height:100%;
     padding:20px 0;
     background: #22242a;
@@ -37,6 +39,11 @@ body{
 .nav-bar .side ul li a{
     color:white;
     display:block;
+   
+}
+.nav-bar .side ul li a i{
+    border-radius:100%;
+    margin-right:10px;
     
 }
 .nav-bar .side ul li a .fas{
@@ -48,6 +55,10 @@ body{
 .nav-bar .side ul li:hover a{
     color:#fff;
 }
+
+
+
+
 .nav-bar .side p{
     color: #fff;
     margin-bottom: 10px;
@@ -62,7 +73,7 @@ body{
     float:right;
     padding-right:30px;
     margin-right: 0px;
-    background-color:22242a  ;
+  
 }
 .straight img{
 	width:70px;
@@ -70,31 +81,36 @@ body{
     float:right;
    
 }
-.straight a{
+.btn{
     list-style: none;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
     margin-right: 5px;
     padding:5px 10px;
-    font-size:50px;
-    
+    font-size:30px;
+    clip-path:circle();
 }
 .straight a:hover{
 	box-shadow: 10px 10px 10px black;
  	background-color:gray;
+}
+.straight  i{
+    width:30px;
+    height:30px;
+    /* padding-right:20px; */
+     border-radius:50%;
+    
 }
 
 .photo{
     float:right; 
     width:300px;
     padding:10px;
-    background-color: gray;
     border: 1px solid #ccc;
+
 }
 .photo img{
     height:100px;
     width:50%;
+  
 }
 
 
@@ -152,7 +168,7 @@ body{
 
 /* middle body part with images*/
 .head{
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 50px;
     font-size: 20px;
     font-weight: bold;
@@ -182,7 +198,7 @@ body{
 	height: 300px;
     display: inline-block;
     /* margin:20px;*/
-    margin-right:20px;
+    margin-right:10px;
     
    
     
